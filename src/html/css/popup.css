@@ -1,0 +1,146 @@
+a:link    {color:#000000; background-color:transparent; text-decoration:none}
+a:visited {color:#000000; background-color:transparent; text-decoration:none}
+a:hover   {color:#000000; background-color:transparent; text-decoration:none}
+a:active  {color:#000000; background-color:transparent; text-decoration:none}
+button{width: 100px;}
+body{overflow: scroll; width: 100px; height: 100px;}
+table{overflow:scroll;}
+
+body {
+   width: 320px;
+   max-width: 320px;
+   height:450px;
+   background-color: #F9FAFB;
+   font-family: helvetica, arial, sans-serif;
+   scrollbar-width: none;
+}
+
+a {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.back-icon {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+
+.back-icon a {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align: center;
+}
+
+.hidden {
+  visibility: hidden !important;
+}
+
+.fa-icon {
+  max-height: 16px;
+  max-width: 16px;
+}
+
+.logo {
+  text-align: center;
+  width: 100%;
+}
+
+.logo img {
+  width: 60px;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.bookmark-categories {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.bookmark-categories ul {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.bookmark-categories ul li {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-width: 0 0 0 0;
+  border-color: #DFE3E8;
+  border-style: solid;
+  position: relative;
+}
+
+.bookmark-categories ul li:last-child {
+  border-bottom-width: 0;
+}
+
+.bookmark-categories ul li a {
+  line-height: 44px;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+.bookmark-categories ul li a p {
+  margin: 0;
+  padding: 0;
+  padding-left: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: padding-left 0.4s ease 0.05s;
+}
+
+.bookmark-categories ul li a p img {
+  margin-right: 8px;
+}
+
+.bookmark-categories ul li:hover a {
+  background: #F4F6F8;
+}
+
+.bookmark-categories ul li:hover a p {
+  padding-left: 10px;
+}
+
+.footer-notes {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.vpn-icon {
+  max-width: 14px;
+  max-height: 14px;
+  margin: 0 6px;
+}
+
+.separator {
+  padding: 0;
+  line-height: 30px;
+}
+
+.separator h6 {
+  margin: 6px 0;
+  font-size: 12px;
+  text-align: center;
+}
