@@ -7,7 +7,7 @@ Useful Nitro UX links created as a Firefox extension.
 
 ## Install
 
-1. Download the [NUX Launch Firefox Add-on](https://github.com/deliberatedesign/firefox-nux-launch/raw/master/nux_launch-0.1.0-fx.xpi) file
+1. Download the [NUX Launch Firefox Add-on](https://github.com/deliberatedesign/firefox-nux-launch/raw/master/nux_launch-0.1.1-fx.xpi) file
 2. Save the add-on file to a suitable location on your computer.
 3. In Firefox, open the Firefox menu ![Firefox menu](https://mdn.mozillademos.org/files/15199/Firefox_menu.png) and click **Add-ons**.
 4. From the settings cog, open **Install Add-on From File:**
